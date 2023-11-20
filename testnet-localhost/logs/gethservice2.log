@@ -1,0 +1,110 @@
+INFO [11-20|11:05:16.177] Maximum peer count                       ETH=100 LES=0 total=100
+INFO [11-20|11:05:16.179] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+WARN [11-20|11:05:16.187] Disabled transaction unindexing for archive node 
+INFO [11-20|11:05:16.187] Set global gas cap                       cap=50,000,000
+INFO [11-20|11:05:16.192] Initializing the KZG library             backend=gokzg
+INFO [11-20|11:05:16.324] Allocated trie memory caches             clean=1.20GiB dirty=0.00B
+INFO [11-20|11:05:16.324] Using pebble as the backing database 
+INFO [11-20|11:05:16.324] Allocated cache and file handles         database=/home/joy/blocksphere/testnet-localhost/scripts/gethdata2/geth/chaindata cache=2.00GiB handles=32767
+INFO [11-20|11:05:16.360] Opened ancient database                  database=/home/joy/blocksphere/testnet-localhost/scripts/gethdata2/geth/chaindata/ancient/chain readonly=false
+INFO [11-20|11:05:16.360] State scheme set to already existing     scheme=hash
+INFO [11-20|11:05:16.361] Initialising Ethereum protocol           network=4,343,433 dbversion=<nil>
+INFO [11-20|11:05:16.366]  
+INFO [11-20|11:05:16.366] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [11-20|11:05:16.366] Chain ID:  4343433 (unknown) 
+INFO [11-20|11:05:16.366] Consensus: unknown 
+INFO [11-20|11:05:16.366]  
+INFO [11-20|11:05:16.366] Pre-Merge hard forks (block based): 
+INFO [11-20|11:05:16.366]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [11-20|11:05:16.366]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [11-20|11:05:16.366]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [11-20|11:05:16.366]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [11-20|11:05:16.366]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [11-20|11:05:16.366]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [11-20|11:05:16.366]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [11-20|11:05:16.366]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [11-20|11:05:16.366]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [11-20|11:05:16.366]  - London:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [11-20|11:05:16.366]  
+INFO [11-20|11:05:16.366] Merge configured: 
+INFO [11-20|11:05:16.366]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [11-20|11:05:16.366]  - Network known to be merged: true 
+INFO [11-20|11:05:16.366]  - Total terminal difficulty:  0 
+INFO [11-20|11:05:16.366]  - Merge netsplit block:       #0        
+INFO [11-20|11:05:16.366]  
+INFO [11-20|11:05:16.366] Post-Merge hard forks (timestamp based): 
+INFO [11-20|11:05:16.366]  - Shanghai:                    @60         (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/shanghai.md) 
+INFO [11-20|11:05:16.366]  - Cancun:                      @7680060    
+INFO [11-20|11:05:16.366]  
+INFO [11-20|11:05:16.366] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [11-20|11:05:16.366]  
+INFO [11-20|11:05:16.366] Loaded most recent local block           number=0 hash=e11dbb..d487e5 td=1 age=54y8mo1d
+WARN [11-20|11:05:16.366] Failed to load snapshot                  err="missing or corrupted snapshot"
+INFO [11-20|11:05:16.413] Rebuilding state snapshot 
+INFO [11-20|11:05:16.416] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [11-20|11:05:16.418] Initialized transaction indexer          limit=0
+INFO [11-20|11:05:16.418] Resuming state snapshot generation       root=4ee88e..f68e5c accounts=0 slots=0 storage=0.00B dangling=0 elapsed=4.948ms
+INFO [11-20|11:05:16.441] Generated state snapshot                 accounts=277 slots=31 storage=13.56KiB dangling=0 elapsed=27.436ms
+INFO [11-20|11:05:16.461] Chain post-merge, sync via beacon client 
+INFO [11-20|11:05:16.462] Unprotected transactions allowed 
+INFO [11-20|11:05:16.462] Gasprice oracle is ignoring threshold set threshold=2
+WARN [11-20|11:05:16.465] Engine API enabled                       protocol=eth
+INFO [11-20|11:05:16.465] Starting peer-to-peer node               instance=Geth/v1.13.4-stable/linux-amd64/go1.21.3
+INFO [11-20|11:05:16.479] New local node record                    seq=1,700,453,116,478 id=b49f64fdecb24c98 ip=127.0.0.1 udp=30304 tcp=30304
+INFO [11-20|11:05:16.479] Started P2P networking                   self=enode://3ec7521852e70cc97b21ac8bdb58a0c511906f7fca480973167f252a8203a453ef426a5c86d14294958ffe0e0ba6c240a6c36d6953799afdf6bcd38ec741088e@127.0.0.1:30304
+INFO [11-20|11:05:16.479] IPC endpoint opened                      url=/home/joy/blocksphere/testnet-localhost/scripts/gethdata2/geth.ipc
+INFO [11-20|11:05:16.479] Loaded JWT secret file                   path=/home/joy/blocksphere/testnet-localhost/custom_config_data/jwtsecret crc32=0x8e9361b1
+INFO [11-20|11:05:16.480] HTTP server started                      endpoint=127.0.0.1:8520 auth=false prefix= cors=* vhosts=*
+INFO [11-20|11:05:16.480] WebSocket enabled                        url=ws://127.0.0.1:8521
+INFO [11-20|11:05:16.480] WebSocket enabled                        url=ws://127.0.0.1:8552
+INFO [11-20|11:05:16.480] HTTP server started                      endpoint=127.0.0.1:8552 auth=true  prefix= cors=localhost vhosts=localhost
+WARN [11-20|11:05:36.461] Served eth_coinbase                      conn=127.0.0.1:56396 reqid=3 duration="44.504µs" err="etherbase must be explicitly specified"
+INFO [11-20|11:05:45.048] Looking for peers                        peercount=0 tried=0 static=1
+WARN [11-20|11:05:51.466] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+INFO [11-20|11:06:20.049] Looking for peers                        peercount=1 tried=1 static=1
+WARN [11-20|11:10:51.497] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+WARN [11-20|11:15:51.532] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+WARN [11-20|11:20:51.580] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+WARN [11-20|11:25:51.610] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+WARN [11-20|11:28:21.870] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="174.931µs" err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:28:45.948] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="65.794µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:29:01.782] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="63.239µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:29:09.680] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="66.196µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:29:32.028] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="63.981µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:29:55.400] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="61.858µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:30:07.143] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="58.861µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:30:51.657] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+WARN [11-20|11:32:43.469] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="65.574µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:32:55.815] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="59.833µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:33:07.598] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="57.438µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:33:19.192] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="60.735µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:34:07.448] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="57.629µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:34:55.157] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="57.69µs"   err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:35:08.320] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="70.383µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:35:31.547] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="58.16µs"   err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:35:42.993] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="118.905µs" err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:35:51.712] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+WARN [11-20|11:35:55.704] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="70.784µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:36:19.681] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="66.396µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:36:31.316] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="62.418µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:37:31.223] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="66.495µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:37:42.825] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="54.323µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:38:31.261] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="61.676µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:38:44.082] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="59.212µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:39:07.015] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="55.846µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:39:30.883] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="90.501µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:40:07.745] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="53.241µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:40:20.563] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="70.614µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:40:51.748] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+WARN [11-20|11:41:06.776] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="61.246µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:41:30.685] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="63.761µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:41:54.944] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:47944 reqid=1 duration="63.4µs"    err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:42:22.434] Got interrupt, shutting down... 
+INFO [11-20|11:42:22.435] HTTP server stopped                      endpoint=127.0.0.1:8520
+INFO [11-20|11:42:22.435] HTTP server stopped                      endpoint=127.0.0.1:8521
+INFO [11-20|11:42:22.435] HTTP server stopped                      endpoint=127.0.0.1:8552
+INFO [11-20|11:42:22.436] IPC endpoint closed                      url=/home/joy/blocksphere/testnet-localhost/scripts/gethdata2/geth.ipc
+INFO [11-20|11:42:22.436] Ethereum protocol stopped 
+INFO [11-20|11:42:22.436] Looking for peers                        peercount=0 tried=0 static=1
+INFO [11-20|11:42:22.437] Transaction pool stopped 
+INFO [11-20|11:42:22.443] Blockchain stopped 

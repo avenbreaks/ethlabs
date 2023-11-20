@@ -1,0 +1,35 @@
+[
+  {
+    "pubkey": "92bda2220d0ae76b05833338fb461c462132ee1e849cc1b76660f5a3a1202537734d0b27b0a132c3c959639d758672aa",
+    "withdrawal_credentials": "00ac4d512818bda3bd9537c24e55bb6491214553f6c41ce2eff2bfb31d868add",
+    "amount": 32000000000,
+    "signature": "a8b4620b13e5fc095de9da8304958b55a0a8c4b7bc9aafeb866c7af9c75226d5fdf27b9019089a4e7b457b999f4394e40d8e2a9a9311018a43ed0fb8d2cebb36072ea0ea32471e6a5c940a335b9a3cc76822fa2dd1a3365dedeac70f85022732",
+    "deposit_message_root": "dfeb2eb88089a5357f2f47273bef91f77b723c10820359929419b76a8c5d097c",
+    "deposit_data_root": "7aa63f7af973a5900eb625f7d9293d3fcf1bbe5c598700132694ca20a850636b",
+    "fork_version": "10000443",
+    "network_name": "localhost",
+    "deposit_cli_version": "2.7.0"
+  },
+  {
+    "pubkey": "902d8ff52d69d53ceb8adf48d5632e7109670e73492fdb959b68f2b8a80088fa8ee58724238510441dd06dd23fe0d51c",
+    "withdrawal_credentials": "00be62947c82b514c8bb13478f82d296c819d832bf6e0162d0ba75549ba69270",
+    "amount": 32000000000,
+    "signature": "a12c582ab3f3c2cbfc80f0fea2e762496d752e3f53044b9a69d9a2891ee8b109e286bab6aca45aafb095b2c6aa42d69c17f75e7c510d407f388d61acea5358ef53c0bc8ae60ca6a35d7c8234cbe82906725680f17bfd2db329f3465666688f09",
+    "deposit_message_root": "044c486fc523364a75f2d30ede9ec4c8544021989704f4659eefae678972237d",
+    "deposit_data_root": "8c61e2c0bab6a0652be71296c088f763133ebb66e9bfa4e07cf581209d41ecab",
+    "fork_version": "10000443",
+    "network_name": "localhost",
+    "deposit_cli_version": "2.7.0"
+  },
+  {
+    "pubkey": "90c3119f2ab0d983f6dd669d2fc1eddde3ccea0be93725002d1d67a2e790d79357388e5c02543d4cc2e4b613782cba60",
+    "withdrawal_credentials": "0096fb618e58a6cc06734d46bbfe241175024bbda28f2fed839944c8818510ee",
+    "amount": 32000000000,
+    "signature": "a9437fd63bb9c4a24c706f402dd5af355614ae30e5417e9a75e5e17b0f6c1a41e612798639205b19c6913b1f3174501705a83c8c9bbcd3ad01d197105251260327afb3d0d7169a54f3600acccdfb32c776991a33d9aae5f2388c57da6bf6de26",
+    "deposit_message_root": "cc24cb3d5e0d0163a8748f0e7515730713e3a90bd66d054acc94dc0bc5ed63aa",
+    "deposit_data_root": "1ec5a91948b36fcb069867d910e91b0ca3ba5d77b2186e1e10444888eef81653",
+    "fork_version": "10000443",
+    "network_name": "localhost",
+    "deposit_cli_version": "2.7.0"
+  }
+]

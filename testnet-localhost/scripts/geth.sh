@@ -1,0 +1,45 @@
+nohup geth \
+    --datadir /home/joy/blocksphere/testnet-localhost/scripts/gethdata1 \
+    --http --http.addr 127.0.0.1 \
+    --http.corsdomain '*' \
+    --http.vhosts '*' \
+    --http.api="eth,web3,net,admin" \
+    --ws --ws.api="eth,web3,net" \
+    --ws.addr 127.0.0.1 \
+    --ws.port 8546 \
+    --ws.origins '*' \
+    --maxpeers 100 \
+    --nat extip:127.0.0.1 \
+    --networkid=4343433 \
+    --syncmode=full \
+    --port 30303 \
+    --discovery.port 30303 \
+    --http.port 8545 \
+    --authrpc.port 8551 \
+    --authrpc.jwtsecret /home/joy/blocksphere/testnet-localhost/custom_config_data/jwtsecret \
+    --rpc.allow-unprotected-txs \
+    --txpool.accountqueue 64 \
+    --txpool.accountslots 16 \
+    --txpool.globalqueue 1024 \
+    --txpool.globalslots 5120 \
+    --txpool.journal="transactions.rlp" \
+    --txpool.lifetime=3h0m0s \
+    --txpool.pricebump 10 \
+    --txpool.pricelimit 1 \
+    --txpool.rejournal=1h0m0s \
+    --gcmode=archive \
+    --crypto.kzg="gokzg" \
+    --cache.trie 15 \
+    --cache.snapshot 10 \
+    --cache.preimages \
+    --cache.gc 25 \
+    --cache.database 50 \
+    --cache.blocklogs 32 \
+    --cache 4096 \
+    --log.compress \
+    --log.maxage 1 \
+    --gpo.blocks 20 \
+    --gpo.ignoreprice 2 \
+    --gpo.maxprice 500000000000 \
+    --gpo.percentile 60 \
+    > /home/joy/blocksphere/testnet-localhost/logs/gethservice.log &

@@ -1,0 +1,340 @@
+INFO [11-20|11:04:45.619] Maximum peer count                       ETH=100 LES=0 total=100
+INFO [11-20|11:04:45.621] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+WARN [11-20|11:04:45.626] Disabled transaction unindexing for archive node 
+INFO [11-20|11:04:45.626] Set global gas cap                       cap=50,000,000
+INFO [11-20|11:04:45.626] Initializing the KZG library             backend=gokzg
+INFO [11-20|11:04:45.730] Allocated trie memory caches             clean=1.20GiB dirty=0.00B
+INFO [11-20|11:04:45.730] Using pebble as the backing database 
+INFO [11-20|11:04:45.730] Allocated cache and file handles         database=/home/joy/blocksphere/testnet-localhost/scripts/gethdata1/geth/chaindata cache=2.00GiB handles=32767
+INFO [11-20|11:04:45.774] Opened ancient database                  database=/home/joy/blocksphere/testnet-localhost/scripts/gethdata1/geth/chaindata/ancient/chain readonly=false
+INFO [11-20|11:04:45.774] State scheme set to already existing     scheme=hash
+INFO [11-20|11:04:45.775] Initialising Ethereum protocol           network=4,343,433 dbversion=<nil>
+INFO [11-20|11:04:45.779]  
+INFO [11-20|11:04:45.779] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [11-20|11:04:45.779] Chain ID:  4343433 (unknown) 
+INFO [11-20|11:04:45.779] Consensus: unknown 
+INFO [11-20|11:04:45.779]  
+INFO [11-20|11:04:45.779] Pre-Merge hard forks (block based): 
+INFO [11-20|11:04:45.779]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [11-20|11:04:45.779]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [11-20|11:04:45.779]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [11-20|11:04:45.779]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [11-20|11:04:45.779]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [11-20|11:04:45.779]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [11-20|11:04:45.779]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [11-20|11:04:45.779]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [11-20|11:04:45.779]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [11-20|11:04:45.779]  - London:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [11-20|11:04:45.779]  
+INFO [11-20|11:04:45.779] Merge configured: 
+INFO [11-20|11:04:45.779]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [11-20|11:04:45.779]  - Network known to be merged: true 
+INFO [11-20|11:04:45.779]  - Total terminal difficulty:  0 
+INFO [11-20|11:04:45.779]  - Merge netsplit block:       #0        
+INFO [11-20|11:04:45.779]  
+INFO [11-20|11:04:45.779] Post-Merge hard forks (timestamp based): 
+INFO [11-20|11:04:45.779]  - Shanghai:                    @60         (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/shanghai.md) 
+INFO [11-20|11:04:45.779]  - Cancun:                      @7680060    
+INFO [11-20|11:04:45.779]  
+INFO [11-20|11:04:45.779] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [11-20|11:04:45.779]  
+INFO [11-20|11:04:45.779] Loaded most recent local block           number=0 hash=e11dbb..d487e5 td=1 age=54y8mo1d
+WARN [11-20|11:04:45.779] Failed to load snapshot                  err="missing or corrupted snapshot"
+INFO [11-20|11:04:45.783] Rebuilding state snapshot 
+INFO [11-20|11:04:45.785] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [11-20|11:04:45.786] Resuming state snapshot generation       root=4ee88e..f68e5c accounts=0 slots=0 storage=0.00B dangling=0 elapsed=3.661ms
+INFO [11-20|11:04:45.787] Initialized transaction indexer          limit=0
+INFO [11-20|11:04:45.806] Generated state snapshot                 accounts=277 slots=31 storage=13.56KiB dangling=0 elapsed=22.972ms
+INFO [11-20|11:04:45.833] Chain post-merge, sync via beacon client 
+INFO [11-20|11:04:45.834] Unprotected transactions allowed 
+INFO [11-20|11:04:45.834] Gasprice oracle is ignoring threshold set threshold=2
+WARN [11-20|11:04:45.836] Engine API enabled                       protocol=eth
+INFO [11-20|11:04:45.836] Starting peer-to-peer node               instance=Geth/v1.13.4-stable/linux-amd64/go1.21.3
+INFO [11-20|11:04:45.849] New local node record                    seq=1,700,453,085,848 id=cab7ae20307621a2 ip=127.0.0.1 udp=30303 tcp=30303
+INFO [11-20|11:04:45.851] Started P2P networking                   self=enode://e74c710c0cfe0eb176e8a02d999d47c77060732acb02de77c87636b47b6a85da218e73ff20ddb078aa2f2acb52d8f0463e31bb6af60f894153265137c8ebda72@127.0.0.1:30303
+INFO [11-20|11:04:45.851] IPC endpoint opened                      url=/home/joy/blocksphere/testnet-localhost/scripts/gethdata1/geth.ipc
+INFO [11-20|11:04:45.852] Loaded JWT secret file                   path=/home/joy/blocksphere/testnet-localhost/custom_config_data/jwtsecret crc32=0x8e9361b1
+INFO [11-20|11:04:45.852] HTTP server started                      endpoint=127.0.0.1:8545 auth=false prefix= cors=* vhosts=*
+INFO [11-20|11:04:45.852] WebSocket enabled                        url=ws://127.0.0.1:8546
+INFO [11-20|11:04:45.853] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [11-20|11:04:45.853] HTTP server started                      endpoint=127.0.0.1:8551 auth=true  prefix= cors=localhost vhosts=localhost
+INFO [11-20|11:04:55.861] Looking for peers                        peercount=1 tried=148 static=0
+WARN [11-20|11:04:58.580] Served eth_coinbase                      conn=127.0.0.1:36802 reqid=3 duration="30.447µs" err="etherbase must be explicitly specified"
+INFO [11-20|11:05:05.982] Looking for peers                        peercount=0 tried=180 static=0
+INFO [11-20|11:05:16.012] Looking for peers                        peercount=0 tried=96  static=0
+WARN [11-20|11:05:20.837] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+INFO [11-20|11:05:36.050] Looking for peers                        peercount=2 tried=84  static=0
+INFO [11-20|11:05:46.214] Looking for peers                        peercount=1 tried=73  static=0
+INFO [11-20|11:05:56.555] Looking for peers                        peercount=1 tried=192 static=0
+INFO [11-20|11:06:06.708] Looking for peers                        peercount=1 tried=85  static=0
+INFO [11-20|11:06:16.764] Looking for peers                        peercount=1 tried=147 static=1
+INFO [11-20|11:06:26.797] Looking for peers                        peercount=1 tried=186 static=1
+INFO [11-20|11:06:37.051] Looking for peers                        peercount=1 tried=55  static=1
+INFO [11-20|11:06:47.056] Looking for peers                        peercount=1 tried=141 static=1
+INFO [11-20|11:06:57.063] Looking for peers                        peercount=2 tried=103 static=1
+INFO [11-20|11:07:07.202] Looking for peers                        peercount=1 tried=160 static=1
+INFO [11-20|11:07:17.293] Looking for peers                        peercount=1 tried=100 static=1
+INFO [11-20|11:07:27.368] Looking for peers                        peercount=1 tried=136 static=1
+INFO [11-20|11:07:37.532] Looking for peers                        peercount=1 tried=142 static=1
+INFO [11-20|11:07:47.544] Looking for peers                        peercount=2 tried=124 static=1
+INFO [11-20|11:07:57.556] Looking for peers                        peercount=1 tried=134 static=1
+INFO [11-20|11:08:07.577] Looking for peers                        peercount=1 tried=96  static=1
+INFO [11-20|11:08:17.655] Looking for peers                        peercount=1 tried=140 static=1
+INFO [11-20|11:08:27.784] Looking for peers                        peercount=1 tried=162 static=1
+INFO [11-20|11:08:38.082] Looking for peers                        peercount=1 tried=104 static=1
+INFO [11-20|11:08:48.151] Looking for peers                        peercount=1 tried=141 static=1
+INFO [11-20|11:08:58.537] Looking for peers                        peercount=1 tried=140 static=1
+INFO [11-20|11:09:18.603] Looking for peers                        peercount=1 tried=135 static=1
+WARN [11-20|11:09:22.847] Served eth_coinbase                      conn=127.0.0.1:49372 reqid=3 duration="24.296µs" err="etherbase must be explicitly specified"
+INFO [11-20|11:09:28.670] Looking for peers                        peercount=1 tried=99  static=1
+INFO [11-20|11:09:39.023] Looking for peers                        peercount=1 tried=107 static=1
+INFO [11-20|11:09:49.026] Looking for peers                        peercount=1 tried=149 static=1
+INFO [11-20|11:09:59.047] Looking for peers                        peercount=1 tried=40  static=1
+INFO [11-20|11:10:09.295] Looking for peers                        peercount=1 tried=122 static=1
+INFO [11-20|11:10:19.550] Looking for peers                        peercount=1 tried=90  static=1
+WARN [11-20|11:10:20.879] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+INFO [11-20|11:10:30.312] Looking for peers                        peercount=1 tried=111 static=1
+INFO [11-20|11:10:40.364] Looking for peers                        peercount=1 tried=105 static=1
+INFO [11-20|11:10:50.393] Looking for peers                        peercount=1 tried=164 static=1
+INFO [11-20|11:11:00.509] Looking for peers                        peercount=1 tried=125 static=1
+INFO [11-20|11:11:10.569] Looking for peers                        peercount=3 tried=84  static=1
+INFO [11-20|11:11:20.840] Looking for peers                        peercount=1 tried=94  static=1
+INFO [11-20|11:11:31.265] Looking for peers                        peercount=1 tried=154 static=1
+INFO [11-20|11:11:41.347] Looking for peers                        peercount=1 tried=146 static=1
+INFO [11-20|11:11:51.409] Looking for peers                        peercount=1 tried=114 static=1
+INFO [11-20|11:12:01.458] Looking for peers                        peercount=1 tried=141 static=1
+INFO [11-20|11:12:11.564] Looking for peers                        peercount=1 tried=114 static=1
+INFO [11-20|11:12:21.684] Looking for peers                        peercount=2 tried=65  static=1
+INFO [11-20|11:12:31.737] Looking for peers                        peercount=3 tried=155 static=1
+INFO [11-20|11:12:41.775] Looking for peers                        peercount=2 tried=63  static=1
+INFO [11-20|11:12:51.866] Looking for peers                        peercount=1 tried=171 static=1
+INFO [11-20|11:13:01.879] Looking for peers                        peercount=3 tried=129 static=1
+INFO [11-20|11:13:11.957] Looking for peers                        peercount=1 tried=115 static=1
+INFO [11-20|11:13:22.479] Looking for peers                        peercount=1 tried=128 static=1
+INFO [11-20|11:13:32.540] Looking for peers                        peercount=1 tried=126 static=1
+INFO [11-20|11:13:42.939] Looking for peers                        peercount=1 tried=106 static=1
+INFO [11-20|11:13:52.993] Looking for peers                        peercount=1 tried=108 static=1
+INFO [11-20|11:14:03.025] Looking for peers                        peercount=1 tried=94  static=1
+INFO [11-20|11:14:13.083] Looking for peers                        peercount=1 tried=163 static=1
+INFO [11-20|11:14:23.137] Looking for peers                        peercount=3 tried=122 static=1
+INFO [11-20|11:14:33.150] Looking for peers                        peercount=1 tried=46  static=1
+INFO [11-20|11:14:43.158] Looking for peers                        peercount=3 tried=114 static=1
+INFO [11-20|11:14:53.166] Looking for peers                        peercount=1 tried=153 static=1
+INFO [11-20|11:15:03.973] Looking for peers                        peercount=1 tried=115 static=1
+INFO [11-20|11:15:13.990] Looking for peers                        peercount=2 tried=169 static=1
+WARN [11-20|11:15:20.932] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+INFO [11-20|11:15:24.200] Looking for peers                        peercount=2 tried=112 static=1
+INFO [11-20|11:15:34.206] Looking for peers                        peercount=1 tried=137 static=1
+INFO [11-20|11:15:44.223] Looking for peers                        peercount=1 tried=132 static=1
+INFO [11-20|11:15:54.735] Looking for peers                        peercount=1 tried=144 static=1
+INFO [11-20|11:16:05.025] Looking for peers                        peercount=1 tried=105 static=1
+INFO [11-20|11:16:15.163] Looking for peers                        peercount=1 tried=97  static=1
+INFO [11-20|11:16:25.212] Looking for peers                        peercount=1 tried=101 static=1
+INFO [11-20|11:16:35.227] Looking for peers                        peercount=1 tried=85  static=1
+INFO [11-20|11:16:45.535] Looking for peers                        peercount=1 tried=142 static=1
+INFO [11-20|11:16:55.618] Looking for peers                        peercount=1 tried=107 static=1
+INFO [11-20|11:17:15.663] Looking for peers                        peercount=3 tried=52  static=1
+INFO [11-20|11:17:25.678] Looking for peers                        peercount=3 tried=107 static=1
+INFO [11-20|11:17:35.754] Looking for peers                        peercount=1 tried=40  static=1
+INFO [11-20|11:17:45.796] Looking for peers                        peercount=1 tried=104 static=1
+INFO [11-20|11:17:56.266] Looking for peers                        peercount=1 tried=135 static=1
+INFO [11-20|11:18:06.285] Looking for peers                        peercount=3 tried=128 static=1
+INFO [11-20|11:18:16.350] Looking for peers                        peercount=1 tried=108 static=1
+INFO [11-20|11:18:26.358] Looking for peers                        peercount=2 tried=101 static=1
+INFO [11-20|11:18:36.660] Looking for peers                        peercount=1 tried=105 static=1
+INFO [11-20|11:18:46.666] Looking for peers                        peercount=3 tried=100 static=1
+INFO [11-20|11:18:56.746] Looking for peers                        peercount=1 tried=91  static=1
+INFO [11-20|11:19:06.867] Looking for peers                        peercount=1 tried=116 static=1
+INFO [11-20|11:19:16.892] Looking for peers                        peercount=1 tried=147 static=1
+INFO [11-20|11:19:26.979] Looking for peers                        peercount=1 tried=97  static=1
+INFO [11-20|11:19:36.982] Looking for peers                        peercount=1 tried=96  static=1
+INFO [11-20|11:19:47.475] Looking for peers                        peercount=1 tried=167 static=1
+INFO [11-20|11:19:57.527] Looking for peers                        peercount=1 tried=131 static=1
+INFO [11-20|11:20:17.629] Looking for peers                        peercount=1 tried=191 static=1
+WARN [11-20|11:20:20.988] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+INFO [11-20|11:20:27.693] Looking for peers                        peercount=1 tried=120 static=1
+INFO [11-20|11:20:37.896] Looking for peers                        peercount=1 tried=142 static=1
+INFO [11-20|11:20:48.329] Looking for peers                        peercount=1 tried=135 static=1
+INFO [11-20|11:20:58.345] Looking for peers                        peercount=3 tried=126 static=1
+INFO [11-20|11:21:08.345] Looking for peers                        peercount=2 tried=158 static=1
+INFO [11-20|11:21:18.384] Looking for peers                        peercount=1 tried=151 static=1
+INFO [11-20|11:21:28.959] Looking for peers                        peercount=1 tried=115 static=1
+INFO [11-20|11:21:39.002] Looking for peers                        peercount=2 tried=88  static=1
+INFO [11-20|11:21:49.230] Looking for peers                        peercount=1 tried=143 static=1
+INFO [11-20|11:21:59.463] Looking for peers                        peercount=2 tried=133 static=1
+INFO [11-20|11:22:09.821] Looking for peers                        peercount=1 tried=153 static=1
+INFO [11-20|11:22:20.033] Looking for peers                        peercount=1 tried=119 static=1
+INFO [11-20|11:22:30.039] Looking for peers                        peercount=1 tried=129 static=1
+INFO [11-20|11:22:40.162] Looking for peers                        peercount=1 tried=159 static=1
+INFO [11-20|11:22:50.200] Looking for peers                        peercount=1 tried=101 static=1
+INFO [11-20|11:23:00.206] Looking for peers                        peercount=1 tried=31  static=1
+INFO [11-20|11:23:10.489] Looking for peers                        peercount=1 tried=144 static=1
+INFO [11-20|11:23:21.789] Looking for peers                        peercount=1 tried=148 static=1
+INFO [11-20|11:23:31.930] Looking for peers                        peercount=2 tried=121 static=1
+INFO [11-20|11:23:41.999] Looking for peers                        peercount=1 tried=106 static=1
+INFO [11-20|11:23:52.002] Looking for peers                        peercount=2 tried=102 static=1
+INFO [11-20|11:24:02.242] Looking for peers                        peercount=1 tried=112 static=1
+INFO [11-20|11:24:12.275] Looking for peers                        peercount=1 tried=133 static=1
+INFO [11-20|11:24:22.284] Looking for peers                        peercount=1 tried=105 static=1
+INFO [11-20|11:24:32.301] Looking for peers                        peercount=1 tried=104 static=1
+INFO [11-20|11:24:43.757] Looking for peers                        peercount=1 tried=83  static=1
+INFO [11-20|11:24:53.794] Looking for peers                        peercount=2 tried=183 static=1
+INFO [11-20|11:25:03.917] Looking for peers                        peercount=1 tried=89  static=1
+INFO [11-20|11:25:13.929] Looking for peers                        peercount=1 tried=111 static=1
+WARN [11-20|11:25:21.059] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+INFO [11-20|11:25:24.135] Looking for peers                        peercount=1 tried=134 static=1
+INFO [11-20|11:25:34.214] Looking for peers                        peercount=1 tried=89  static=1
+INFO [11-20|11:25:44.336] Looking for peers                        peercount=1 tried=159 static=1
+INFO [11-20|11:25:54.723] Looking for peers                        peercount=1 tried=149 static=1
+INFO [11-20|11:26:04.924] Looking for peers                        peercount=1 tried=115 static=1
+WARN [11-20|11:26:11.766] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="141.497µs" err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:26:15.087] Looking for peers                        peercount=1 tried=94  static=1
+INFO [11-20|11:26:25.106] Looking for peers                        peercount=1 tried=122 static=1
+INFO [11-20|11:26:35.175] Looking for peers                        peercount=1 tried=99  static=1
+INFO [11-20|11:26:46.043] Looking for peers                        peercount=1 tried=90  static=1
+INFO [11-20|11:26:56.207] Looking for peers                        peercount=1 tried=116 static=1
+INFO [11-20|11:27:06.226] Looking for peers                        peercount=1 tried=170 static=1
+WARN [11-20|11:27:10.495] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="62.959µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:27:16.338] Looking for peers                        peercount=1 tried=73  static=1
+INFO [11-20|11:27:26.363] Looking for peers                        peercount=1 tried=223 static=1
+WARN [11-20|11:27:35.270] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="62.939µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:27:36.400] Looking for peers                        peercount=1 tried=62  static=1
+INFO [11-20|11:27:46.420] Looking for peers                        peercount=2 tried=62  static=1
+WARN [11-20|11:27:47.443] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="65.113µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:27:56.973] Looking for peers                        peercount=1 tried=147 static=1
+INFO [11-20|11:28:07.148] Looking for peers                        peercount=1 tried=101 static=1
+WARN [11-20|11:28:13.455] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="62.428µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:28:17.165] Looking for peers                        peercount=3 tried=163 static=1
+INFO [11-20|11:28:27.349] Looking for peers                        peercount=1 tried=75  static=1
+INFO [11-20|11:28:37.371] Looking for peers                        peercount=1 tried=165 static=1
+WARN [11-20|11:28:37.681] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="80.212µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:28:47.522] Looking for peers                        peercount=1 tried=113 static=1
+INFO [11-20|11:28:58.223] Looking for peers                        peercount=1 tried=98  static=1
+INFO [11-20|11:29:08.243] Looking for peers                        peercount=2 tried=118 static=1
+INFO [11-20|11:29:18.394] Looking for peers                        peercount=1 tried=96  static=1
+WARN [11-20|11:29:21.275] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="62.268µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:29:28.395] Looking for peers                        peercount=1 tried=172 static=1
+INFO [11-20|11:29:38.688] Looking for peers                        peercount=1 tried=118 static=1
+WARN [11-20|11:29:44.721] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="59.632µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:29:49.471] Looking for peers                        peercount=1 tried=164 static=1
+INFO [11-20|11:29:59.473] Looking for peers                        peercount=2 tried=103 static=1
+INFO [11-20|11:30:09.949] Looking for peers                        peercount=1 tried=56  static=1
+INFO [11-20|11:30:20.107] Looking for peers                        peercount=1 tried=152 static=1
+WARN [11-20|11:30:21.085] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="56.346µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+WARN [11-20|11:30:21.114] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+INFO [11-20|11:30:30.118] Looking for peers                        peercount=1 tried=104 static=1
+WARN [11-20|11:30:32.191] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="67.298µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:30:40.124] Looking for peers                        peercount=2 tried=158 static=1
+WARN [11-20|11:30:43.880] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="56.868µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:30:50.143] Looking for peers                        peercount=3 tried=157 static=1
+WARN [11-20|11:30:55.832] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="58µs"      err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:31:01.347] Looking for peers                        peercount=2 tried=104 static=1
+WARN [11-20|11:31:08.695] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="64.421µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:31:11.501] Looking for peers                        peercount=1 tried=113 static=1
+WARN [11-20|11:31:20.070] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="59.322µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:31:21.875] Looking for peers                        peercount=1 tried=92  static=1
+WARN [11-20|11:31:31.677] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="63.971µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:31:32.109] Looking for peers                        peercount=1 tried=111 static=1
+INFO [11-20|11:31:42.146] Looking for peers                        peercount=3 tried=91  static=1
+WARN [11-20|11:31:44.885] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="66.696µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:31:52.187] Looking for peers                        peercount=3 tried=115 static=1
+WARN [11-20|11:31:56.198] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="57.319µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:32:02.319] Looking for peers                        peercount=1 tried=76  static=1
+WARN [11-20|11:32:07.992] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="57.148µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:32:12.320] Looking for peers                        peercount=3 tried=147 static=1
+WARN [11-20|11:32:20.363] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="58.16µs"   err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:32:22.671] Looking for peers                        peercount=1 tried=129 static=1
+WARN [11-20|11:32:31.778] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="63.69µs"   err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:32:34.531] Looking for peers                        peercount=1 tried=111 static=1
+INFO [11-20|11:32:44.655] Looking for peers                        peercount=1 tried=142 static=1
+INFO [11-20|11:32:54.655] Looking for peers                        peercount=1 tried=54  static=1
+INFO [11-20|11:33:04.657] Looking for peers                        peercount=1 tried=95  static=1
+INFO [11-20|11:33:14.674] Looking for peers                        peercount=2 tried=93  static=1
+INFO [11-20|11:33:24.993] Looking for peers                        peercount=1 tried=192 static=1
+WARN [11-20|11:33:31.500] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="159.021µs" err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:33:35.191] Looking for peers                        peercount=1 tried=100 static=1
+WARN [11-20|11:33:45.098] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="58.701µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:33:45.227] Looking for peers                        peercount=2 tried=133 static=1
+INFO [11-20|11:33:55.268] Looking for peers                        peercount=1 tried=133 static=1
+WARN [11-20|11:33:56.198] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="59.703µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:34:05.477] Looking for peers                        peercount=1 tried=81  static=1
+INFO [11-20|11:34:15.482] Looking for peers                        peercount=1 tried=158 static=1
+WARN [11-20|11:34:21.261] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="60.625µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:34:25.541] Looking for peers                        peercount=1 tried=87  static=1
+WARN [11-20|11:34:31.948] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="58.882µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:34:35.856] Looking for peers                        peercount=1 tried=138 static=1
+WARN [11-20|11:34:45.267] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="70.814µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:34:45.861] Looking for peers                        peercount=2 tried=37  static=1
+INFO [11-20|11:34:55.875] Looking for peers                        peercount=2 tried=154 static=1
+INFO [11-20|11:35:05.935] Looking for peers                        peercount=2 tried=155 static=1
+INFO [11-20|11:35:17.157] Looking for peers                        peercount=1 tried=116 static=1
+WARN [11-20|11:35:21.170] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+WARN [11-20|11:35:21.956] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="82.146µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:35:27.170] Looking for peers                        peercount=1 tried=117 static=1
+INFO [11-20|11:35:38.054] Looking for peers                        peercount=1 tried=103 static=1
+INFO [11-20|11:35:48.067] Looking for peers                        peercount=2 tried=178 static=1
+INFO [11-20|11:35:58.122] Looking for peers                        peercount=1 tried=99  static=1
+WARN [11-20|11:36:06.674] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="58.05µs"   err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:36:08.128] Looking for peers                        peercount=1 tried=78  static=1
+INFO [11-20|11:36:18.230] Looking for peers                        peercount=1 tried=131 static=1
+INFO [11-20|11:36:28.373] Looking for peers                        peercount=1 tried=81  static=1
+INFO [11-20|11:36:38.630] Looking for peers                        peercount=1 tried=191 static=1
+WARN [11-20|11:36:43.163] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="60.495µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:36:48.694] Looking for peers                        peercount=1 tried=123 static=1
+WARN [11-20|11:36:57.172] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="54.092µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:36:58.737] Looking for peers                        peercount=1 tried=117 static=1
+WARN [11-20|11:37:06.879] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="62.027µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:37:08.799] Looking for peers                        peercount=2 tried=124 static=1
+INFO [11-20|11:37:18.965] Looking for peers                        peercount=2 tried=156 static=1
+WARN [11-20|11:37:23.003] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="53.401µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:37:29.133] Looking for peers                        peercount=1 tried=93  static=1
+INFO [11-20|11:37:49.175] Looking for peers                        peercount=1 tried=149 static=1
+WARN [11-20|11:37:54.917] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="104.699µs" err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:37:59.318] Looking for peers                        peercount=1 tried=75  static=1
+WARN [11-20|11:38:06.945] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="62.378µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:38:09.554] Looking for peers                        peercount=1 tried=163 static=1
+WARN [11-20|11:38:18.839] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="59.663µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:38:19.733] Looking for peers                        peercount=1 tried=115 static=1
+INFO [11-20|11:38:30.386] Looking for peers                        peercount=1 tried=129 static=1
+INFO [11-20|11:38:40.389] Looking for peers                        peercount=1 tried=143 static=1
+INFO [11-20|11:38:50.392] Looking for peers                        peercount=1 tried=73  static=1
+WARN [11-20|11:38:54.996] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="56.928µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:39:00.436] Looking for peers                        peercount=2 tried=121 static=1
+INFO [11-20|11:39:10.654] Looking for peers                        peercount=1 tried=177 static=1
+WARN [11-20|11:39:18.929] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="58.36µs"   err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:39:20.677] Looking for peers                        peercount=2 tried=171 static=1
+INFO [11-20|11:39:31.005] Looking for peers                        peercount=1 tried=146 static=1
+INFO [11-20|11:39:41.320] Looking for peers                        peercount=1 tried=133 static=1
+WARN [11-20|11:39:44.739] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="67.147µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:39:51.346] Looking for peers                        peercount=1 tried=123 static=1
+WARN [11-20|11:39:55.531] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="57.799µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:40:01.349] Looking for peers                        peercount=1 tried=176 static=1
+INFO [11-20|11:40:11.398] Looking for peers                        peercount=1 tried=136 static=1
+WARN [11-20|11:40:21.227] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+INFO [11-20|11:40:21.560] Looking for peers                        peercount=1 tried=84  static=1
+INFO [11-20|11:40:31.579] Looking for peers                        peercount=1 tried=151 static=1
+WARN [11-20|11:40:32.273] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="55.235µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:40:42.227] Looking for peers                        peercount=1 tried=109 static=1
+WARN [11-20|11:40:45.464] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="57.349µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:40:52.246] Looking for peers                        peercount=2 tried=102 static=1
+WARN [11-20|11:40:54.865] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="56.367µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:41:02.296] Looking for peers                        peercount=1 tried=99  static=1
+INFO [11-20|11:41:12.410] Looking for peers                        peercount=1 tried=122 static=1
+WARN [11-20|11:41:18.631] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="105.51µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:41:22.663] Looking for peers                        peercount=1 tried=189 static=1
+INFO [11-20|11:41:33.909] Looking for peers                        peercount=1 tried=101 static=1
+WARN [11-20|11:41:43.647] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="56.878µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:41:44.434] Looking for peers                        peercount=1 tried=116 static=1
+INFO [11-20|11:41:54.445] Looking for peers                        peercount=1 tried=87  static=1
+INFO [11-20|11:42:05.173] Looking for peers                        peercount=1 tried=129 static=1
+WARN [11-20|11:42:07.048] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="57.169µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:42:17.981] Looking for peers                        peercount=1 tried=116 static=1
+WARN [11-20|11:42:19.541] Served engine_forkchoiceUpdatedV2        conn=127.0.0.1:40726 reqid=1 duration="62.489µs"  err="Invalid parameters"                     errdata="{Error:invalid parent beacon block root: fork active, missing expected attribute}"
+INFO [11-20|11:42:22.435] Got interrupt, shutting down... 
+INFO [11-20|11:42:22.435] HTTP server stopped                      endpoint=127.0.0.1:8545
+INFO [11-20|11:42:22.435] HTTP server stopped                      endpoint=127.0.0.1:8546
+INFO [11-20|11:42:22.435] HTTP server stopped                      endpoint=127.0.0.1:8551
+INFO [11-20|11:42:22.438] IPC endpoint closed                      url=/home/joy/blocksphere/testnet-localhost/scripts/gethdata1/geth.ipc
+INFO [11-20|11:42:22.474] Ethereum protocol stopped 
+INFO [11-20|11:42:22.474] Transaction pool stopped 
+INFO [11-20|11:42:22.480] Blockchain stopped 

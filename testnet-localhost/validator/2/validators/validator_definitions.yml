@@ -1,0 +1,19 @@
+---
+- enabled: true
+  voting_public_key: "0x88840437c94e29955c8acd5eae1041eeef68ecdb997d2bd8d330aa72f23d68a243f2579b54b61e1db1635bf0ba3e6447"
+  description: ""
+  type: local_keystore
+  voting_keystore_path: /home/joy/blocksphere/testnet-localhost/validator/2/validators/0x88840437c94e29955c8acd5eae1041eeef68ecdb997d2bd8d330aa72f23d68a243f2579b54b61e1db1635bf0ba3e6447/keystore-m_12381_3600_3_0_0-1700409974.json
+  voting_keystore_password: "11111111"
+- enabled: true
+  voting_public_key: "0xaaf89481a493a8cc779e4cab738614746736231413a3104f6e30601a0e27d71d53ba9ebedfc40a269ce308b24144ec1c"
+  description: ""
+  type: local_keystore
+  voting_keystore_path: /home/joy/blocksphere/testnet-localhost/validator/2/validators/0xaaf89481a493a8cc779e4cab738614746736231413a3104f6e30601a0e27d71d53ba9ebedfc40a269ce308b24144ec1c/keystore-m_12381_3600_4_0_0-1700409976.json
+  voting_keystore_password: "11111111"
+- enabled: true
+  voting_public_key: "0xb264e7d624f33165c4497f9da5857d478947e84cb644e809da65dcd158495f376852c21a80081b637c2be426c4b78f33"
+  description: ""
+  type: local_keystore
+  voting_keystore_path: /home/joy/blocksphere/testnet-localhost/validator/2/validators/0xb264e7d624f33165c4497f9da5857d478947e84cb644e809da65dcd158495f376852c21a80081b637c2be426c4b78f33/keystore-m_12381_3600_5_0_0-1700409977.json
+  voting_keystore_password: "11111111"

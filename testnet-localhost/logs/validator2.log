@@ -1,0 +1,447 @@
+Nov 20 04:28:00.525 INFO Logging to file                         path: "/home/joy/blocksphere/testnet-localhost/validator/2/validators/logs/validator.log"
+Nov 20 04:28:00.534 INFO Lighthouse started                      version: Lighthouse/v4.5.0-441fc16
+Nov 20 04:28:00.534 INFO Configured for network                  name: custom (/home/joy/blocksphere/testnet-localhost/custom_config_data)
+Nov 20 04:28:00.534 INFO Starting validator client               validator_dir: "/home/joy/blocksphere/testnet-localhost/validator/2/validators", beacon_nodes: ["http://localhost:5053/"]
+Nov 20 04:28:00.534 INFO Metrics HTTP server started             listen_address: 127.0.0.1:5065
+Nov 20 04:28:00.542 INFO Completed validator discovery           new_validators: 0
+Nov 20 04:28:02.840 INFO Enabled validator                       voting_pubkey: 0x88840437c94e29955c8acd5eae1041eeef68ecdb997d2bd8d330aa72f23d68a243f2579b54b61e1db1635bf0ba3e6447, signing_method: local_keystore
+Nov 20 04:28:07.715 INFO Enabled validator                       voting_pubkey: 0xaaf89481a493a8cc779e4cab738614746736231413a3104f6e30601a0e27d71d53ba9ebedfc40a269ce308b24144ec1c, signing_method: local_keystore
+Nov 20 04:28:11.883 INFO Enabled validator                       voting_pubkey: 0xb264e7d624f33165c4497f9da5857d478947e84cb644e809da65dcd158495f376852c21a80081b637c2be426c4b78f33, signing_method: local_keystore
+Nov 20 04:28:14.601 INFO Modified key_cache saved successfully
+Nov 20 04:28:14.601 INFO Initialized validators                  enabled: 3, disabled: 0
+Nov 20 04:28:14.638 INFO Initialized beacon node connections     available: 1, total: 1
+Nov 20 04:28:14.639 INFO Loaded validator keypair store          voting_validators: 3
+Nov 20 04:28:14.643 INFO HTTP API started                        api_token_file: "/home/joy/blocksphere/testnet-localhost/validator/2/validators/api-token.txt", listen_address: 127.0.0.1:5063
+Nov 20 04:28:14.644 INFO Genesis has already occurred            seconds_ago: 45142
+Nov 20 04:28:14.644 INFO Block production service started        service: block
+Nov 20 04:28:14.644 INFO Attestation production service started  next_update_millis: 1356, service: attestation
+Nov 20 04:28:14.644 INFO Sync committee service started          next_update_millis: 1356, service: sync_committee
+Nov 20 04:28:14.644 INFO Validator registration service started  service: preparation
+Nov 20 04:28:14.644 INFO Proposer preparation service started    service: preparation
+Nov 20 04:28:14.644 INFO Doppelganger protection disabled.
+Nov 20 04:28:14.650 INFO Validator exists in beacon chain        fee_recipient: 0xdead…5735, validator_index: 3, pubkey: 0x88840437c94e29955c8acd5eae1041eeef68ecdb997d2bd8d330aa72f23d68a243f2579b54b61e1db1635bf0ba3e6447, service: duties
+Nov 20 04:28:14.653 INFO Validator exists in beacon chain        fee_recipient: 0xdead…5735, validator_index: 4, pubkey: 0xaaf89481a493a8cc779e4cab738614746736231413a3104f6e30601a0e27d71d53ba9ebedfc40a269ce308b24144ec1c, service: duties
+Nov 20 04:28:14.653 INFO Validator exists in beacon chain        fee_recipient: 0xdead…5735, validator_index: 5, pubkey: 0xb264e7d624f33165c4497f9da5857d478947e84cb644e809da65dcd158495f376852c21a80081b637c2be426c4b78f33, service: duties
+Nov 20 04:28:16.019 INFO Validator in sync committee             sync_committee_period: 0, validator_index: 3, service: duties
+Nov 20 04:28:16.019 INFO Validator in sync committee             sync_committee_period: 0, validator_index: 5, service: duties
+Nov 20 04:28:16.019 INFO Validator in sync committee             sync_committee_period: 0, validator_index: 4, service: duties
+Nov 20 04:28:16.094 INFO Requesting unsigned block               slot: 3762, service: block
+Nov 20 04:28:20.157 INFO Successfully published sync committee messages, slot: 3762, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:28:21.883 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3762), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:28:22.002 ERRO No synced beacon nodes                  synced: 0, available: 0, total: 1, service: notifier
+Nov 20 04:28:22.002 INFO All validators active                   slot: 3762, epoch: 117, total_validators: 3, active_validators: 3, current_epoch_proposers: 16, service: notifier
+Nov 20 04:28:26.002 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:28:32.205 INFO Successfully published sync committee messages, slot: 3763, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:28:34.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:28:34.001 INFO All validators active                   slot: 3763, epoch: 117, total_validators: 3, active_validators: 3, current_epoch_proposers: 16, service: notifier
+Nov 20 04:28:36.009 INFO Successfully published sync contributions, slot: 3763, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:28:40.006 INFO Requesting unsigned block               slot: 3764, service: block
+Nov 20 04:28:44.076 INFO Successfully published sync committee messages, slot: 3764, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:28:45.950 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3764), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:28:46.001 ERRO No synced beacon nodes                  synced: 0, available: 0, total: 1, service: notifier
+Nov 20 04:28:46.001 INFO All validators active                   slot: 3764, epoch: 117, total_validators: 3, active_validators: 3, current_epoch_proposers: 16, service: notifier
+Nov 20 04:28:50.004 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:28:52.006 INFO Requesting unsigned block               slot: 3765, service: block
+Nov 20 04:28:56.245 INFO Successfully published sync committee messages, slot: 3765, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:28:56.253 INFO Successfully published attestations     type: unaggregated, slot: 3765, committee_index: 0, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, validator_indices: [4], count: 1, service: attestation
+Nov 20 04:28:58.002 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:28:58.002 INFO All validators active                   slot: 3765, epoch: 117, total_validators: 3, active_validators: 3, current_epoch_proposers: 16, service: notifier
+Nov 20 04:29:00.017 INFO Successfully published sync contributions, slot: 3765, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:29:00.047 INFO Successfully published attestation      type: aggregated, slot: 3765, committee_index: 0, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, signatures: 1, aggregator: 4, service: attestation
+Nov 20 04:29:01.783 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3765), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:29:02.001 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:29:04.002 INFO Requesting unsigned block               slot: 3766, service: block
+Nov 20 04:29:08.138 INFO Successfully published sync committee messages, slot: 3766, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:29:09.681 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3766), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:29:10.002 ERRO No synced beacon nodes                  synced: 0, available: 0, total: 1, service: notifier
+Nov 20 04:29:10.002 INFO All validators active                   slot: 3766, epoch: 117, total_validators: 3, active_validators: 3, current_epoch_proposers: 16, service: notifier
+Nov 20 04:29:14.004 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:29:20.047 INFO Successfully published sync committee messages, slot: 3767, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:29:22.007 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:29:22.007 INFO All validators active                   slot: 3767, epoch: 117, total_validators: 3, active_validators: 3, current_epoch_proposers: 16, service: notifier
+Nov 20 04:29:24.031 INFO Successfully published sync contributions, slot: 3767, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:29:24.059 INFO Successfully published sync contributions, slot: 3767, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 3, service: sync_committee
+Nov 20 04:29:28.003 INFO Requesting unsigned block               slot: 3768, service: block
+Nov 20 04:29:32.030 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3768), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:29:32.037 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:29:32.179 INFO Successfully published sync committee messages, slot: 3768, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:29:34.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:29:34.001 INFO All validators active                   slot: 3768, epoch: 117, total_validators: 3, active_validators: 3, current_epoch_proposers: 16, service: notifier
+Nov 20 04:29:36.012 INFO Successfully published sync contributions, slot: 3768, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:29:36.031 INFO Successfully published sync contributions, slot: 3768, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 1, service: sync_committee
+Nov 20 04:29:44.169 INFO Successfully published sync committee messages, slot: 3769, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:29:46.003 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:29:46.003 INFO All validators active                   slot: 3769, epoch: 117, total_validators: 3, active_validators: 3, current_epoch_proposers: 16, service: notifier
+Nov 20 04:29:48.012 INFO Successfully published sync contributions, slot: 3769, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:29:48.018 INFO Successfully published sync contributions, slot: 3769, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:29:48.031 INFO Successfully published sync contributions, slot: 3769, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 3, service: sync_committee
+Nov 20 04:29:52.002 INFO Requesting unsigned block               slot: 3770, service: block
+Nov 20 04:29:55.402 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3770), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:29:56.002 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:29:56.074 INFO Successfully published sync committee messages, slot: 3770, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:29:58.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:29:58.001 INFO All validators active                   slot: 3770, epoch: 117, total_validators: 3, active_validators: 3, current_epoch_proposers: 16, service: notifier
+Nov 20 04:30:00.023 INFO Successfully published sync contributions, slot: 3770, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:30:04.002 INFO Requesting unsigned block               slot: 3771, service: block
+Nov 20 04:30:07.145 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3771), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:30:08.003 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:30:08.073 INFO Successfully published sync committee messages, slot: 3771, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:30:10.003 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:30:10.003 INFO All validators active                   slot: 3771, epoch: 117, total_validators: 3, active_validators: 3, current_epoch_proposers: 16, service: notifier
+Nov 20 04:30:12.028 INFO Successfully published sync contributions, slot: 3771, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 3, service: sync_committee
+Nov 20 04:30:20.143 INFO Successfully published sync committee messages, slot: 3772, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:30:22.003 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:30:22.003 INFO All validators active                   slot: 3772, epoch: 117, total_validators: 3, active_validators: 3, current_epoch_proposers: 16, service: notifier
+Nov 20 04:30:24.016 INFO Successfully published sync contributions, slot: 3772, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 1, service: sync_committee
+Nov 20 04:30:24.030 INFO Successfully published sync contributions, slot: 3772, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:30:24.030 INFO Successfully published sync contributions, slot: 3772, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:30:32.094 INFO Successfully published sync committee messages, slot: 3773, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:30:34.004 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:30:34.004 INFO All validators active                   slot: 3773, epoch: 117, total_validators: 3, active_validators: 3, current_epoch_proposers: 16, service: notifier
+Nov 20 04:30:36.009 INFO Successfully published sync contributions, slot: 3773, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 3, service: sync_committee
+Nov 20 04:30:44.131 INFO Successfully published sync committee messages, slot: 3774, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:30:46.002 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:30:46.002 INFO All validators active                   slot: 3774, epoch: 117, total_validators: 3, active_validators: 3, current_epoch_proposers: 16, service: notifier
+Nov 20 04:30:48.018 INFO Successfully published sync contributions, slot: 3774, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 3, service: sync_committee
+Nov 20 04:30:48.033 INFO Successfully published sync contributions, slot: 3774, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:30:48.033 INFO Successfully published sync contributions, slot: 3774, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:30:56.043 INFO Successfully published attestations     type: unaggregated, slot: 3775, committee_index: 0, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, validator_indices: [3], count: 1, service: attestation
+Nov 20 04:30:56.164 INFO Successfully published sync committee messages, slot: 3775, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:30:58.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:30:58.001 INFO All validators active                   slot: 3775, epoch: 117, total_validators: 3, active_validators: 3, current_epoch_proposers: 16, service: notifier
+Nov 20 04:31:00.023 INFO Successfully published sync contributions, slot: 3775, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:31:00.023 INFO Successfully published sync contributions, slot: 3775, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 1, service: sync_committee
+Nov 20 04:31:00.038 INFO Successfully published attestation      type: aggregated, slot: 3775, committee_index: 0, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, signatures: 1, aggregator: 3, service: attestation
+Nov 20 04:31:08.155 INFO Successfully published sync committee messages, slot: 3776, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:31:10.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:31:10.001 INFO All validators active                   slot: 3776, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:31:12.019 INFO Successfully published sync contributions, slot: 3776, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:31:12.020 INFO Successfully published sync contributions, slot: 3776, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 3, service: sync_committee
+Nov 20 04:31:12.053 INFO Successfully published sync contributions, slot: 3776, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 1, service: sync_committee
+Nov 20 04:31:20.154 INFO Successfully published sync committee messages, slot: 3777, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:31:22.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:31:22.001 INFO All validators active                   slot: 3777, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:31:24.029 INFO Successfully published sync contributions, slot: 3777, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:31:24.029 INFO Successfully published sync contributions, slot: 3777, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 1, service: sync_committee
+Nov 20 04:31:32.146 INFO Successfully published sync committee messages, slot: 3778, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:31:34.003 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:31:34.003 INFO All validators active                   slot: 3778, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:31:36.027 INFO Successfully published sync contributions, slot: 3778, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:31:44.144 INFO Successfully published sync committee messages, slot: 3779, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:31:46.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:31:46.001 INFO All validators active                   slot: 3779, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:31:48.016 INFO Successfully published sync contributions, slot: 3779, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 3, service: sync_committee
+Nov 20 04:31:56.099 INFO Successfully published sync committee messages, slot: 3780, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:31:58.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:31:58.001 INFO All validators active                   slot: 3780, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:32:08.127 INFO Successfully published sync committee messages, slot: 3781, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:32:10.003 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:32:10.003 INFO All validators active                   slot: 3781, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:32:12.014 INFO Successfully published sync contributions, slot: 3781, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:32:12.028 INFO Successfully published sync contributions, slot: 3781, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:32:12.036 INFO Successfully published sync contributions, slot: 3781, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 1, service: sync_committee
+Nov 20 04:32:20.155 INFO Successfully published sync committee messages, slot: 3782, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:32:22.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:32:22.001 INFO All validators active                   slot: 3782, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:32:24.015 INFO Successfully published sync contributions, slot: 3782, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:32:24.015 INFO Successfully published sync contributions, slot: 3782, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 1, service: sync_committee
+Nov 20 04:32:32.111 INFO Successfully published sync committee messages, slot: 3783, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:32:34.004 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:32:34.004 INFO All validators active                   slot: 3783, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:32:40.003 INFO Requesting unsigned block               slot: 3784, service: block
+Nov 20 04:32:43.472 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3784), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:32:44.002 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:32:44.169 INFO Successfully published sync committee messages, slot: 3784, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:32:46.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:32:46.001 INFO All validators active                   slot: 3784, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:32:48.009 INFO Successfully published sync contributions, slot: 3784, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 3, service: sync_committee
+Nov 20 04:32:48.040 INFO Successfully published sync contributions, slot: 3784, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:32:48.045 INFO Successfully published sync contributions, slot: 3784, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:32:52.003 INFO Requesting unsigned block               slot: 3785, service: block
+Nov 20 04:32:55.816 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3785), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:32:56.003 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:32:56.099 INFO Successfully published sync committee messages, slot: 3785, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:32:58.004 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:32:58.004 INFO All validators active                   slot: 3785, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:33:00.019 INFO Successfully published sync contributions, slot: 3785, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:33:00.034 INFO Successfully published sync contributions, slot: 3785, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 3, service: sync_committee
+Nov 20 04:33:04.004 INFO Requesting unsigned block               slot: 3786, service: block
+Nov 20 04:33:07.601 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3786), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:33:08.003 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:33:08.159 INFO Successfully published sync committee messages, slot: 3786, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:33:10.002 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:33:10.002 INFO All validators active                   slot: 3786, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:33:12.023 INFO Successfully published sync contributions, slot: 3786, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:33:12.035 INFO Successfully published sync contributions, slot: 3786, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:33:12.035 INFO Successfully published sync contributions, slot: 3786, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 1, service: sync_committee
+Nov 20 04:33:16.002 INFO Requesting unsigned block               slot: 3787, service: block
+Nov 20 04:33:19.194 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3787), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:33:20.002 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:33:20.089 INFO Successfully published sync committee messages, slot: 3787, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:33:22.003 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:33:22.004 INFO All validators active                   slot: 3787, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:33:24.019 INFO Successfully published sync contributions, slot: 3787, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 1, service: sync_committee
+Nov 20 04:33:32.051 INFO Successfully published sync committee messages, slot: 3788, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:33:34.004 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:33:34.004 INFO All validators active                   slot: 3788, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:33:36.031 INFO Successfully published sync contributions, slot: 3788, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 3, service: sync_committee
+Nov 20 04:33:36.031 INFO Successfully published sync contributions, slot: 3788, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:33:36.038 INFO Successfully published sync contributions, slot: 3788, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 1, service: sync_committee
+Nov 20 04:33:44.116 INFO Successfully published sync committee messages, slot: 3789, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:33:46.002 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:33:46.002 INFO All validators active                   slot: 3789, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:33:48.022 INFO Successfully published sync contributions, slot: 3789, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:33:48.032 INFO Successfully published sync contributions, slot: 3789, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 3, service: sync_committee
+Nov 20 04:33:56.101 INFO Successfully published sync committee messages, slot: 3790, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:33:58.002 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:33:58.002 INFO All validators active                   slot: 3790, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:34:00.015 INFO Successfully published sync contributions, slot: 3790, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:34:00.024 INFO Successfully published sync contributions, slot: 3790, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 1, service: sync_committee
+Nov 20 04:34:04.002 INFO Requesting unsigned block               slot: 3791, service: block
+Nov 20 04:34:07.450 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3791), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:34:08.006 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:34:08.083 INFO Successfully published sync committee messages, slot: 3791, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:34:10.003 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:34:10.003 INFO All validators active                   slot: 3791, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:34:12.023 INFO Successfully published sync contributions, slot: 3791, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:34:12.032 INFO Successfully published sync contributions, slot: 3791, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 3, service: sync_committee
+Nov 20 04:34:20.149 INFO Successfully published sync committee messages, slot: 3792, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:34:22.002 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:34:22.002 INFO All validators active                   slot: 3792, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:34:32.103 INFO Successfully published sync committee messages, slot: 3793, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:34:34.003 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:34:34.003 INFO All validators active                   slot: 3793, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:34:36.017 INFO Successfully published sync contributions, slot: 3793, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 1, service: sync_committee
+Nov 20 04:34:44.131 INFO Successfully published sync committee messages, slot: 3794, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:34:46.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:34:46.001 INFO All validators active                   slot: 3794, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:34:48.019 INFO Successfully published sync contributions, slot: 3794, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:34:52.005 INFO Requesting unsigned block               slot: 3795, service: block
+Nov 20 04:34:55.159 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3795), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:34:56.004 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:34:56.078 INFO Successfully published sync committee messages, slot: 3795, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:34:58.002 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:34:58.002 INFO All validators active                   slot: 3795, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:35:00.027 INFO Successfully published sync contributions, slot: 3795, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:35:00.027 INFO Successfully published sync contributions, slot: 3795, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:35:00.052 INFO Successfully published sync contributions, slot: 3795, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 1, service: sync_committee
+Nov 20 04:35:00.064 INFO Successfully published sync contributions, slot: 3795, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 3, service: sync_committee
+Nov 20 04:35:04.002 INFO Requesting unsigned block               slot: 3796, service: block
+Nov 20 04:35:08.167 INFO Successfully published sync committee messages, slot: 3796, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:35:08.322 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3796), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:35:10.001 ERRO No synced beacon nodes                  synced: 0, available: 0, total: 1, service: notifier
+Nov 20 04:35:10.001 INFO All validators active                   slot: 3796, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:35:12.001 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:35:12.019 INFO Successfully published sync contributions, slot: 3796, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:35:20.122 INFO Successfully published sync committee messages, slot: 3797, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:35:20.197 INFO Successfully published attestations     type: unaggregated, slot: 3797, committee_index: 0, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, validator_indices: [5], count: 1, service: attestation
+Nov 20 04:35:22.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:35:22.001 INFO All validators active                   slot: 3797, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:35:24.023 INFO Successfully published attestation      type: aggregated, slot: 3797, committee_index: 0, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, signatures: 1, aggregator: 5, service: attestation
+Nov 20 04:35:24.027 INFO Successfully published sync contributions, slot: 3797, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 3, service: sync_committee
+Nov 20 04:35:28.002 INFO Requesting unsigned block               slot: 3798, service: block
+Nov 20 04:35:31.548 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3798), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:35:32.002 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:35:32.074 INFO Successfully published sync committee messages, slot: 3798, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:35:34.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:35:34.001 INFO All validators active                   slot: 3798, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:35:40.005 INFO Requesting unsigned block               slot: 3799, service: block
+Nov 20 04:35:42.995 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3799), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:35:44.005 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:35:44.069 INFO Successfully published sync committee messages, slot: 3799, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:35:46.002 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:35:46.002 INFO All validators active                   slot: 3799, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:35:48.011 INFO Successfully published sync contributions, slot: 3799, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:35:52.003 INFO Requesting unsigned block               slot: 3800, service: block
+Nov 20 04:35:55.707 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3800), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:35:56.002 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:35:56.106 INFO Successfully published sync committee messages, slot: 3800, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:35:58.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:35:58.001 INFO All validators active                   slot: 3800, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:36:00.016 INFO Successfully published sync contributions, slot: 3800, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:36:00.028 INFO Successfully published sync contributions, slot: 3800, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 3, service: sync_committee
+Nov 20 04:36:08.105 INFO Successfully published sync committee messages, slot: 3801, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:36:10.007 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:36:10.007 INFO All validators active                   slot: 3801, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:36:12.015 INFO Successfully published sync contributions, slot: 3801, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:36:16.006 INFO Requesting unsigned block               slot: 3802, service: block
+Nov 20 04:36:19.693 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3802), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:36:20.003 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:36:20.003 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:36:20.060 INFO Successfully published attestations     type: unaggregated, slot: 3802, committee_index: 0, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, validator_indices: [3], count: 1, service: attestation
+Nov 20 04:36:20.154 INFO Successfully published sync committee messages, slot: 3802, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:36:22.002 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:36:22.002 INFO All validators active                   slot: 3802, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:36:24.024 INFO Successfully published attestation      type: aggregated, slot: 3802, committee_index: 0, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, signatures: 1, aggregator: 3, service: attestation
+Nov 20 04:36:24.036 INFO Successfully published sync contributions, slot: 3802, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 3, service: sync_committee
+Nov 20 04:36:28.002 INFO Requesting unsigned block               slot: 3803, service: block
+Nov 20 04:36:31.317 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3803), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:36:32.002 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:36:32.108 INFO Successfully published sync committee messages, slot: 3803, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:36:34.002 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:36:34.002 INFO All validators active                   slot: 3803, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:36:44.104 INFO Successfully published sync committee messages, slot: 3804, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:36:46.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:36:46.001 INFO All validators active                   slot: 3804, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:36:48.025 INFO Successfully published sync contributions, slot: 3804, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:36:48.032 INFO Successfully published sync contributions, slot: 3804, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 3, service: sync_committee
+Nov 20 04:36:56.060 INFO Successfully published sync committee messages, slot: 3805, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:36:58.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:36:58.001 INFO All validators active                   slot: 3805, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:37:08.072 INFO Successfully published sync committee messages, slot: 3806, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:37:10.003 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:37:10.003 INFO All validators active                   slot: 3806, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:37:12.022 INFO Successfully published sync contributions, slot: 3806, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 1, service: sync_committee
+Nov 20 04:37:20.032 INFO Successfully published attestations     type: unaggregated, slot: 3807, committee_index: 0, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, validator_indices: [4], count: 1, service: attestation
+Nov 20 04:37:20.113 INFO Successfully published sync committee messages, slot: 3807, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:37:22.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:37:22.001 INFO All validators active                   slot: 3807, epoch: 118, total_validators: 3, active_validators: 3, current_epoch_proposers: 12, service: notifier
+Nov 20 04:37:24.019 INFO Successfully published attestation      type: aggregated, slot: 3807, committee_index: 0, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, signatures: 1, aggregator: 4, service: attestation
+Nov 20 04:37:24.026 INFO Successfully published sync contributions, slot: 3807, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 3, service: sync_committee
+Nov 20 04:37:28.080 INFO Requesting unsigned block               slot: 3808, service: block
+Nov 20 04:37:31.232 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3808), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:37:32.002 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:37:32.061 INFO Successfully published sync committee messages, slot: 3808, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:37:34.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:37:34.001 INFO All validators active                   slot: 3808, epoch: 119, total_validators: 3, active_validators: 3, current_epoch_proposers: 15, service: notifier
+Nov 20 04:37:36.010 INFO Successfully published sync contributions, slot: 3808, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 1, service: sync_committee
+Nov 20 04:37:36.010 INFO Successfully published sync contributions, slot: 3808, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:37:40.003 INFO Requesting unsigned block               slot: 3809, service: block
+Nov 20 04:37:42.826 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3809), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:37:44.003 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:37:44.064 INFO Successfully published sync committee messages, slot: 3809, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:37:46.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:37:46.001 INFO All validators active                   slot: 3809, epoch: 119, total_validators: 3, active_validators: 3, current_epoch_proposers: 15, service: notifier
+Nov 20 04:37:56.094 INFO Successfully published sync committee messages, slot: 3810, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:37:58.003 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:37:58.003 INFO All validators active                   slot: 3810, epoch: 119, total_validators: 3, active_validators: 3, current_epoch_proposers: 15, service: notifier
+Nov 20 04:38:00.020 INFO Successfully published sync contributions, slot: 3810, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 1, service: sync_committee
+Nov 20 04:38:00.020 INFO Successfully published sync contributions, slot: 3810, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:38:08.070 INFO Successfully published sync committee messages, slot: 3811, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:38:10.003 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:38:10.003 INFO All validators active                   slot: 3811, epoch: 119, total_validators: 3, active_validators: 3, current_epoch_proposers: 15, service: notifier
+Nov 20 04:38:12.029 INFO Successfully published sync contributions, slot: 3811, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:38:20.073 INFO Successfully published sync committee messages, slot: 3812, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:38:22.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:38:22.001 INFO All validators active                   slot: 3812, epoch: 119, total_validators: 3, active_validators: 3, current_epoch_proposers: 15, service: notifier
+Nov 20 04:38:24.020 INFO Successfully published sync contributions, slot: 3812, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:38:24.028 INFO Successfully published sync contributions, slot: 3812, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:38:28.002 INFO Requesting unsigned block               slot: 3813, service: block
+Nov 20 04:38:31.262 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3813), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:38:32.002 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:38:32.074 INFO Successfully published sync committee messages, slot: 3813, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:38:34.002 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:38:34.002 INFO All validators active                   slot: 3813, epoch: 119, total_validators: 3, active_validators: 3, current_epoch_proposers: 15, service: notifier
+Nov 20 04:38:36.019 INFO Successfully published sync contributions, slot: 3813, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 3, service: sync_committee
+Nov 20 04:38:36.026 INFO Successfully published sync contributions, slot: 3813, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:38:40.003 INFO Requesting unsigned block               slot: 3814, service: block
+Nov 20 04:38:44.087 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3814), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:38:44.092 INFO Successfully published sync committee messages, slot: 3814, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:38:46.001 ERRO No synced beacon nodes                  synced: 0, available: 0, total: 1, service: notifier
+Nov 20 04:38:46.001 INFO All validators active                   slot: 3814, epoch: 119, total_validators: 3, active_validators: 3, current_epoch_proposers: 15, service: notifier
+Nov 20 04:38:48.002 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:38:48.002 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:38:48.031 INFO Successfully published sync contributions, slot: 3814, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:38:48.035 INFO Successfully published sync contributions, slot: 3814, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:38:56.047 INFO Successfully published sync committee messages, slot: 3815, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:38:58.003 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:38:58.003 INFO All validators active                   slot: 3815, epoch: 119, total_validators: 3, active_validators: 3, current_epoch_proposers: 15, service: notifier
+Nov 20 04:39:00.012 INFO Successfully published sync contributions, slot: 3815, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:39:04.003 INFO Requesting unsigned block               slot: 3816, service: block
+Nov 20 04:39:07.016 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3816), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:39:08.001 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:39:08.110 INFO Successfully published sync committee messages, slot: 3816, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:39:10.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:39:10.006 INFO All validators active                   slot: 3816, epoch: 119, total_validators: 3, active_validators: 3, current_epoch_proposers: 15, service: notifier
+Nov 20 04:39:20.066 INFO Successfully published sync committee messages, slot: 3817, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:39:22.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:39:22.001 INFO All validators active                   slot: 3817, epoch: 119, total_validators: 3, active_validators: 3, current_epoch_proposers: 15, service: notifier
+Nov 20 04:39:24.025 INFO Successfully published sync contributions, slot: 3817, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:39:28.007 INFO Requesting unsigned block               slot: 3818, service: block
+Nov 20 04:39:30.884 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3818), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:39:32.005 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:39:32.008 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:39:32.111 INFO Successfully published sync committee messages, slot: 3818, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:39:32.119 INFO Successfully published attestations     type: unaggregated, slot: 3818, committee_index: 0, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, validator_indices: [3], count: 1, service: attestation
+Nov 20 04:39:34.002 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:39:34.002 INFO All validators active                   slot: 3818, epoch: 119, total_validators: 3, active_validators: 3, current_epoch_proposers: 15, service: notifier
+Nov 20 04:39:36.033 INFO Successfully published sync contributions, slot: 3818, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 3, service: sync_committee
+Nov 20 04:39:36.034 INFO Successfully published attestation      type: aggregated, slot: 3818, committee_index: 0, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, signatures: 1, aggregator: 3, service: attestation
+Nov 20 04:39:44.098 INFO Successfully published sync committee messages, slot: 3819, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:39:46.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:39:46.001 INFO All validators active                   slot: 3819, epoch: 119, total_validators: 3, active_validators: 3, current_epoch_proposers: 15, service: notifier
+Nov 20 04:39:48.017 INFO Successfully published sync contributions, slot: 3819, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 1, service: sync_committee
+Nov 20 04:39:48.022 INFO Successfully published sync contributions, slot: 3819, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:39:56.065 INFO Successfully published sync committee messages, slot: 3820, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:39:58.002 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:39:58.003 INFO All validators active                   slot: 3820, epoch: 119, total_validators: 3, active_validators: 3, current_epoch_proposers: 15, service: notifier
+Nov 20 04:40:00.022 INFO Successfully published sync contributions, slot: 3820, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:40:00.022 INFO Successfully published sync contributions, slot: 3820, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:40:04.002 INFO Requesting unsigned block               slot: 3821, service: block
+Nov 20 04:40:07.746 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3821), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:40:08.003 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:40:08.072 INFO Successfully published sync committee messages, slot: 3821, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:40:10.003 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:40:10.003 INFO All validators active                   slot: 3821, epoch: 119, total_validators: 3, active_validators: 3, current_epoch_proposers: 15, service: notifier
+Nov 20 04:40:12.016 INFO Successfully published sync contributions, slot: 3821, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:40:12.029 INFO Successfully published sync contributions, slot: 3821, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 1, service: sync_committee
+Nov 20 04:40:16.003 INFO Requesting unsigned block               slot: 3822, service: block
+Nov 20 04:40:20.129 INFO Successfully published sync committee messages, slot: 3822, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:40:20.564 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3822), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:40:22.002 ERRO No synced beacon nodes                  synced: 0, available: 0, total: 1, service: notifier
+Nov 20 04:40:22.002 INFO All validators active                   slot: 3822, epoch: 119, total_validators: 3, active_validators: 3, current_epoch_proposers: 15, service: notifier
+Nov 20 04:40:24.002 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:40:24.024 INFO Successfully published sync contributions, slot: 3822, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:40:32.069 INFO Successfully published sync committee messages, slot: 3823, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:40:34.002 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:40:34.002 INFO All validators active                   slot: 3823, epoch: 119, total_validators: 3, active_validators: 3, current_epoch_proposers: 15, service: notifier
+Nov 20 04:40:36.026 INFO Successfully published sync contributions, slot: 3823, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:40:36.031 INFO Successfully published sync contributions, slot: 3823, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:40:44.193 INFO Successfully published sync committee messages, slot: 3824, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:40:46.002 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:40:46.002 INFO All validators active                   slot: 3824, epoch: 119, total_validators: 3, active_validators: 3, current_epoch_proposers: 15, service: notifier
+Nov 20 04:40:48.035 INFO Successfully published sync contributions, slot: 3824, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:40:48.039 INFO Successfully published sync contributions, slot: 3824, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 1, service: sync_committee
+Nov 20 04:40:56.071 INFO Successfully published sync committee messages, slot: 3825, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:40:58.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:40:58.001 INFO All validators active                   slot: 3825, epoch: 119, total_validators: 3, active_validators: 3, current_epoch_proposers: 15, service: notifier
+Nov 20 04:41:00.030 INFO Successfully published sync contributions, slot: 3825, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:41:00.038 INFO Successfully published sync contributions, slot: 3825, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:41:04.005 INFO Requesting unsigned block               slot: 3826, service: block
+Nov 20 04:41:06.776 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3826), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:41:08.001 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:41:08.053 INFO Successfully published sync committee messages, slot: 3826, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:41:10.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:41:10.001 INFO All validators active                   slot: 3826, epoch: 119, total_validators: 3, active_validators: 3, current_epoch_proposers: 15, service: notifier
+Nov 20 04:41:12.024 INFO Successfully published sync contributions, slot: 3826, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:41:12.024 INFO Successfully published sync contributions, slot: 3826, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:41:20.069 INFO Successfully published sync committee messages, slot: 3827, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:41:22.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:41:22.001 INFO All validators active                   slot: 3827, epoch: 119, total_validators: 3, active_validators: 3, current_epoch_proposers: 15, service: notifier
+Nov 20 04:41:28.002 INFO Requesting unsigned block               slot: 3828, service: block
+Nov 20 04:41:30.686 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3828), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:41:32.002 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:41:32.055 INFO Successfully published sync committee messages, slot: 3828, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:41:34.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:41:34.001 INFO All validators active                   slot: 3828, epoch: 119, total_validators: 3, active_validators: 3, current_epoch_proposers: 15, service: notifier
+Nov 20 04:41:36.011 INFO Successfully published sync contributions, slot: 3828, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 1, service: sync_committee
+Nov 20 04:41:44.058 INFO Successfully published sync committee messages, slot: 3829, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:41:46.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:41:46.002 INFO All validators active                   slot: 3829, epoch: 119, total_validators: 3, active_validators: 3, current_epoch_proposers: 15, service: notifier
+Nov 20 04:41:48.023 INFO Successfully published sync contributions, slot: 3829, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:41:52.005 INFO Requesting unsigned block               slot: 3830, service: block
+Nov 20 04:41:54.945 CRIT Error whilst producing block            info: proposal did not use a builder, block_slot: Slot(3830), message: Recoverable("Some endpoints failed, num_failed: 1 http://localhost:5053/ => RequestFailed(Recoverable(\"Error from beacon node when producing block: ServerMessage(ErrorMessage { code: 500, message: \\\"UNHANDLED_ERROR: GetPayloadFailed(EngineError(Api { error: ServerMessage { code: -32602, message: \\\\\\\"Invalid parameters\\\\\\\" } }))\\\", stacktraces: [] })\"))"), service: block
+Nov 20 04:41:56.002 INFO Connected to beacon node                endpoint: http://localhost:5053/, version: Lighthouse/v4.5.0-441fc16/x86_64-linux
+Nov 20 04:41:56.069 INFO Successfully published sync committee messages, slot: 3830, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:41:58.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:41:58.002 INFO All validators active                   slot: 3830, epoch: 119, total_validators: 3, active_validators: 3, current_epoch_proposers: 15, service: notifier
+Nov 20 04:42:00.011 INFO Successfully published sync contributions, slot: 3830, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:42:00.033 INFO Successfully published sync contributions, slot: 3830, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 0, service: sync_committee
+Nov 20 04:42:08.127 INFO Successfully published sync committee messages, slot: 3831, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:42:10.003 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:42:10.004 INFO All validators active                   slot: 3831, epoch: 119, total_validators: 3, active_validators: 3, current_epoch_proposers: 15, service: notifier
+Nov 20 04:42:20.044 INFO Successfully published sync committee messages, slot: 3832, head_block: 0xdbf1808d0398adfdf04d47620506ee3a97b622bd690654e812e574c7c305988a, count: 3, service: sync_committee
+Nov 20 04:42:22.002 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Nov 20 04:42:22.002 INFO All validators active                   slot: 3832, epoch: 119, total_validators: 3, active_validators: 3, current_epoch_proposers: 15, service: notifier
+Nov 20 04:42:24.019 INFO Successfully published sync contributions, slot: 3832, num_signers: 128, beacon_block_root: 0xdbf1…988a, subnet: 2, service: sync_committee
+Nov 20 04:42:25.219 INFO Shutting down..                         reason: Success("Received SIGTERM")
